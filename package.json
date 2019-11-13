@@ -1,0 +1,28 @@
+{
+  "name": "com.example.mypresentation",
+  "version": "1.0.0",
+  "displayName": "MyFirstPresentaionApp",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "de.fhg.fokus.famium.presentation": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "~6.2.3",
+    "cordova-plugin-whitelist": "1",
+    "de.fhg.fokus.famium.presentation": "git+https://github.com/fraunhoferfokus/cordova-plugin-presentation.git"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
